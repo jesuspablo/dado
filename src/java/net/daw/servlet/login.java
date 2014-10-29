@@ -45,10 +45,13 @@ public class login extends HttpServlet {
                     miSesion.setAttribute("login", request.getParameter("login"));
                     out.println("<h1>Zona privada</h1>");
                     out.println("<a href=\"juego.jsp\">Acceso al juego</a><br />");
+                    out.println("<a href=\"jesuspablo.jsp\">Acceso a jesus pablo</a><br />");
                     out.println("<a href=\"logout\">Logout</a><br />");
                 } else {
                     out.println("<h1>Error al intentar acceder: password incorrecto</h1>");
+                    
                     out.println("<a href=\"index.html\">Volver al formulario de login</a>");
+                    
                 }
             } else {
                 out.println("<h1>Error al intentar acceder: login incorrecto</h1>");
