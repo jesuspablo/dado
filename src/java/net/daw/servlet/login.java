@@ -46,6 +46,7 @@ public class login extends HttpServlet {
                     out.println("<h1>Zona privada</h1>");
                     out.println("<a href=\"juego.jsp\">Acceso al juego</a><br />");
                     out.println("<a href=\"jesuspablo.jsp\">Acceso a jesus pablo</a><br />");
+                    out.println("<a href=\"angel.jsp\">Acceso a angel</a><br />");
                     out.println("<a href=\"logout\">Logout</a><br />");
                 } else {
                     out.println("<h1>Error al intentar acceder: password incorrecto</h1>");
